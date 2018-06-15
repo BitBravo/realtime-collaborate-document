@@ -1,0 +1,12 @@
+
+<div class="container row">
+  <div class="fileicon col-md-1">
+      <img src="./assets/icons/file_icon.png" width="58px" height="60px" />
+  </div>
+  <div class="toolbar col-md-11">
+   <h3 class="filename">Test Document</h3>
+  </div>
+  <div class="editor block">
+    <app-ngx-editor class="text-area" [config]="editorConfig" [spellcheck]="true" [(ngModel)]="htmlContent" (ngModelChange)="changeEvent()"></app-ngx-editor>
+  </div>
+</div>

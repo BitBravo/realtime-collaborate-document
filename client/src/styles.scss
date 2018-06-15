@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+@import "../node_modules/bootstrap/scss/_mixins";
+@import "../node_modules/bootstrap/scss/_type";
+@import "../node_modules/bootstrap/scss/_reboot";
+@import "../node_modules/bootstrap/scss/_grid";
+@import "../node_modules/font-awesome/css/font-awesome.css";
+
+app-ngx-editor {
+  background: black;
+  .ngx-editor {
+    width: 100%;
+    background-color: #e6e6e6;
+    .ngx-wrapper {
+      .ngx-editor-textarea {
+        height: 90vh;
+        min-height: 5rem;
+        background-color: white !important;
+        width: 60%;
+        margin: 0px auto;
+        margin-top: 40px;
+        -webkit-box-shadow: 0px 0px 5px 2px rgba(204,188,204,1);
+        -moz-box-shadow: 0px 0px 5px 2px rgba(204,188,204,1);
+        box-shadow: 0px 0px 5px 2px rgba(204,188,204,1);
+
+      }
+    }
+    .ngx-toolbar {
+      background-color: white;
+      font-size: 19px;
+      padding: 9px 20px 6px 18px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+  }
+
+}
