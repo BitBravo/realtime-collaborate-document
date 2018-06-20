@@ -1,29 +1,28 @@
-# document-collaboration
+## How to run the frontend side(Angular 4)
+
+# Websocket PORT SETTING
+
+- angualr_client/src/app.component.ts
+
+  socket = new WebSocket(this.ws_scheme + '://<Your IP address>:<PORT>/chat/');
+
+  That is your server ip address and port number
+
+ # Run
+ 
+ `bash
+
+ $npm install
+
+ $npm start
 
 
-## Frontend
 
-`bash
+ ## How to run the backend server
 
-$ cd angular-editor
+ # Requirement 
 
-$ npm install
-
-$ npm start
-
-
-## python server
-
-$ cd python_server
-
-$ pip install -r requirements.txt
-
-$ python app.py
-
-
-## node server
-$ cd node_server
-
-$ npm install
-
-$ npm start
+ - Django1.11
+ 	pip install django1.11
+ - Channels 1.1.1,  asgi-redis1.1.0, asgiref 1.0.1
+   pip install daphne==1.1.0 channels==1.1.1 asgi-redis==1.1.0 asgiref==1.0.1
