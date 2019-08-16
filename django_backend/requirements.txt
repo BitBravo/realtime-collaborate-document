@@ -33,7 +33,7 @@ statsmodels==0.10.0
 stevedore==1.28.0
 Theano==1.0.2
 tqdm==4.23.4
-Twisted==18.4.0
+Twisted==19.7.0
 txaio==2.10.0
 urllib3==1.23
 virtualenv==16.0.0
